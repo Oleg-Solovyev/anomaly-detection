@@ -37,7 +37,7 @@ Index: []
 ```
 There are no anomalies because we are using the same data file for training and testing.
 Remove smallest value 138.0 from the model_file.csv file and run the test_model.py again.
-'''
+```
 2022-07-21 20:04:22.178098 imported file CELSI-raw-data-reports.csv
 2022-07-21 20:04:22.179431 imported file model_file.csv
 2022-07-21 20:04:22.188506 found 9 intervals crossing -10.0 threshold
@@ -48,5 +48,5 @@ Index: []
 2022-07-21 20:04:22.189923 anomalies with shorter intervals
                     DateTime        Date         Time    Time24               ISOdateTime   LinuxTime  Temperature  Humidity  spike  change   ind
 6919  7/12/2022, 11:19:00 AM  2022-07-12  11:19:00 AM  11:19:00  2022-07-12T07:19:00.000Z  1657610340         -9.7        51      1     1.0  6919
-'''
+```
 There is a data set row reported where temperature crossed the threshold and time interval was less then the shortest interval in the model_file.csv file
